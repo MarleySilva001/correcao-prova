@@ -1,0 +1,74 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.banner {
+  background-color: rgb(208, 209, 219);
+  display: flex;
+  justify-content: center;
+  border: 2px solid black
+}
+
+.img {
+  width: 60%;
+  height: 60%;
+  border: 2px solid black
+  
+}
+
+.sobre {
+  border: 2px solid black
+}
+
+.header{
+  border: 2px solid black;
+}
+
+.h2S {
+  background-color: black;
+  color: white;
+}
+
+.pS {
+  border: 2px solid black;
+}
+
+.div {
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+  background-color: rgb(208, 209, 219);
+}
+
+.img2 {
+  margin: 10px;
+  width: 22em;
+height: 22em;
+  border: 2px solid black;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+}
+
+.itensGaleria img{
+width: 22em;
+height: 22em;
+object-fit: cover;
+}
+
+.itensGaleria {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
